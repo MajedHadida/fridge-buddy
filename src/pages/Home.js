@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return(
-        <div className="bg-gray-800 p-10 max-w-screen-lg mx-auto h-screen">
+        <div className="bg-gray-800 p-10 h-screen max-h-screen">
         <div className="grid grid-cols-3 gap-10">
             <div className="col-span-2 row-span-1 col-start-1 col-end-3 bg-none text-white text-7xl pl-10 pt-20">
             Welcome to FridgeBuddy, <span className='text-blue-400'>Username</span>.
@@ -23,7 +23,7 @@ const Home = () => {
                 <figure><img src={box} className='w-[288px]' alt="box" /></figure>
                 <div className="card-body">
                 <div className="card-actions justify-center">
-                    <button className="btn btn-primary px-16">Go<IoChevronForward/></button>
+                    <Link to='/inventory' className="btn btn-primary px-16">Go<IoChevronForward/></Link>
                 </div>
                 </div>
             </div>

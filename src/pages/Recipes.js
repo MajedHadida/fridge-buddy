@@ -74,7 +74,7 @@ const Recipes = () => {
 
     return (
         <div className="h-screen max-h-screen bg-gray-800 flex flex-col">
-          <div className="navbar bg-gray-800">
+          <div className="navbar bg-gray-800 pt-10 pl-10 pr-10">
             <div className="flex-1 text-6xl">
               <Link to="/"><IoChevronBackOutline style={{ color: 'white' }} /></Link>
             </div>
