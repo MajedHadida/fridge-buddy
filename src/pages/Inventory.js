@@ -60,12 +60,12 @@ const Inventory = () => {
            </div>
 
             {/* Title section */}
-            <div className="text-6xl text-white pb-5">
+            <h2 className="text-6xl text-white pb-5">
                 Inventory
-            </div>
+            </h2>
 
             {/* Inventory Container */}
-            <div className="bg-gray-300 h-full flex flex-col rounded-xl p-5 overflow-scroll">
+            <div className="bg-gray-300 h-full flex flex-col rounded-xl p-5 overflow-scroll gap-1">
                 {/* item container */}
                 {items.map((item, itemIndex) => (
                     <div key={itemIndex} className="bg-white flex flex-row justify-between rounded-xl shadow p-10">
@@ -74,9 +74,9 @@ const Inventory = () => {
                         </div>
                         <div className="text-4xl flex flex-col items-center gap-5 w-2/5">
                             {/* Food name */}
-                            <div className="flex flex-row flex-wrap gap-5">
+                            <h2 className="flex flex-row flex-wrap gap-5 text-center">
                                 {items[itemIndex].name}
-                            </div>
+                            </h2>
                             ({items[itemIndex].quantity})
                         </div>
                         <div className="flex flex-col">

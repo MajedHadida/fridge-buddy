@@ -87,7 +87,7 @@ const Recipes = () => {
               </div>
             </div>
           </div>
-          <div className="text-6xl text-white pl-20">Recipes</div>
+          <h2 className="text-6xl text-white pl-20">Recipes</h2>
           <div className="flex-grow flex justify-center pt-10 overflow-hidden">
             <div className="bg-gray-300 w-5/6 h-full overflow-y-auto rounded-xl">
               <div className="flex flex-row flex-wrap justify-center gap-5 py-5">
@@ -96,7 +96,7 @@ const Recipes = () => {
                     key={recipeIndex}
                     to="/recipes/recipe-details"
                     className="bg-white rounded-lg flex flex-col items-center shadow w-[40%] min-w-[350px]"
-                    state={{ recipeName: recipes[recipeIndex].recipeName }}
+                    state={{ recipe: recipe }}
                   >
                     <div className="w-full h-48 overflow-hidden relative">
                       <img
