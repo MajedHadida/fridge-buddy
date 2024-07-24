@@ -41,31 +41,28 @@ const Home = () => {
             </Link>
             </div>
             <div className="col-span-3 row-span-1 col-start-1 col-end-4">
-            <div className='flex flex-row justify-evenly'>
-                <div className="card bg-black w-96 shadow-xl border-white border-2">
+            <div className='flex flex-row justify-evenly gap-5'>
+                <div className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
-                    <h2 className="card-title text-white">Settings</h2>
-                    <FaGears className='w-full h-28 my-10' style={{color:'white'}}/>
+                    <h2 className="text-3xl text-black text-center">Settings</h2>
+                    <FaGears className='w-full h-28 my-10'/>
                     <div className="card-actions justify-center">
-                    <button className="btn btn-primary px-16">Go<IoChevronForward/></button>
                     </div>
                 </div>
                 </div>
-                <div className="card bg-black w-96 shadow-xl border-white border-2">
+                <div className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
-                    <h2 className="card-title text-white">Music</h2>
-                    <FaMusic className='w-full h-28 my-10' style={{color:'white'}}/>
+                    <h2 className="text-3xl text-black text-center">Music</h2>
+                    <FaMusic className='w-full h-28 my-10'/>
                     <div className="card-actions justify-center">
-                    <button className="btn btn-primary px-16">Go<IoChevronForward/></button>
                     </div>
                 </div>
                 </div>
-                <div className="card bg-black w-96 shadow-xl border-white border-2">
+                <div className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
-                    <h2 className="card-title text-white">Manual</h2>
-                    <FaBookOpen className='w-full h-28 my-10' style={{color:'white'}}/>
+                    <h2 className="text-3xl text-black text-center">Manual</h2>
+                    <FaBookOpen className='w-full h-28 my-10'/>
                     <div className="card-actions justify-center">
-                    <button className="btn btn-primary px-16">Go<IoChevronForward/></button>
                     </div>
                 </div>
                 </div>
