@@ -20,11 +20,11 @@ const More = () => {
       <div className="flex flex-col bg-gray-300 rounded-xl p-10 gap-5">
         <div className="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" defaultChecked />
-          <div className="collapse-title text-xl font-medium">
+          <div className="collapse-title text-3xl font-medium">
             Will this app stop my roommate from stealing my snacks?
           </div>
           <div className="collapse-content">
-            <p>
+            <p className="text-2xl">
               While we can't guarantee complete snack security, our app does
               help you keep track of who’s eaten what. Install it and catch the
               snack thief red-handed!
@@ -33,11 +33,11 @@ const More = () => {
         </div>
         <div className="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
-          <div className="collapse-title text-xl font-medium">
+          <div className="collapse-title text-3xl font-medium">
             Can I track how many times I’ve procrastinated on cooking?
           </div>
           <div className="collapse-content">
-            <p>
+            <p className="text-2xl">
               Absolutely! We even have a special badge for the “Master of
               Procrastination.” Wear it with pride!
             </p>
@@ -45,11 +45,11 @@ const More = () => {
         </div>
         <div className="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
-          <div className="collapse-title text-xl font-medium">
+          <div className="collapse-title text-3xl font-medium">
             Will this app help me find the meaning of life in my fridge?
           </div>
           <div className="collapse-content">
-            <p>
+            <p className="text-2xl">
               While it can’t solve existential questions, it can help you find
               that jar of pickles you’ve been searching for. Close enough,
               right?
@@ -60,9 +60,9 @@ const More = () => {
 
       <div className="bg-gray-300 rounded-xl p-10 gap-5">
         <form className="flex flex-col gap-5">
-        <p className="text-xl ">Don't see your question here? Fill out the form below:</p>
+        <p className="text-2xl">Don't see your question here? Fill out the form below:</p>
         <div className="flex flex-row justify-between gap-5">
-        <label className="input input-bordered flex items-center gap-2 w-1/2">
+        <label className="input input-bordered flex items-center gap-2 w-1/2 h-20 text-2xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -74,7 +74,7 @@ const More = () => {
             </svg>
             <input type="text" className="grow" placeholder="Email" />
           </label>
-          <label className="input input-bordered flex items-center gap-2 w-1/2">
+          <label className="input input-bordered flex items-center gap-2 w-1/2 h-20 text-2xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -87,7 +87,7 @@ const More = () => {
           </label>
         </div>
          
-        <textarea className="textarea textarea-bordered" placeholder="Message"></textarea>
+        <textarea className="textarea textarea-bordered h-28 text-2xl" placeholder="Message"></textarea>
         </form>
       </div>
     </div>
