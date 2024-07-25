@@ -17,3 +17,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title-container {
+  background-color: #2d3748; /* gray-700 */
+  padding: 20px;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}

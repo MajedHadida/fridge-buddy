@@ -24,8 +24,9 @@ const Home = () => {
             </Link>
             </div>
             <div className="col-span-2 row-span-2 col-start-1 col-end-3 row-start-2 row-end-4 flex justify-center items-center">
-            <div className='pt-5 pr-5 pl-5 pb-20 rounded-2xl bg-gray-300'>
+            <div className='pt-5 pr-5 pl-5 pb-10 rounded-2xl bg-gray-300 flex flex-col'>
                 <img src={weather} className='rounded-xl' alt='weathers' />
+                <p className='text-3xl text-center pt-5 font-bold'>Weather in Location</p>
             </div>
             </div>
             <div className="col-span-1 row-span-1 col-start-3 col-end-4 flex justify-center">
@@ -35,7 +36,7 @@ const Home = () => {
             </Link>
             </div>
             <div className="col-span-1 row-span-1 col-start-3 col-end-4 flex justify-center">
-            <Link className="rounded-2xl bg-base-100 w-72 shadow-xl flex justify-center flex-col items-center">
+            <Link to={'/more'} className="rounded-2xl bg-base-100 w-72 shadow-xl flex justify-center flex-col items-center">
                 <h2 className="card-title px-7 pt-5 font-bold text-3xl">More</h2>
                 <figure><img src={more} className='w-[200px]' alt="dots" /></figure>
             </Link>
@@ -50,14 +51,14 @@ const Home = () => {
                     </div>
                 </div>
                 </div>
-                <div className="card bg-white w-96 shadow-xl border-white border-2">
+                <Link to={"/music"} className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
                     <h2 className="text-3xl text-black text-center">Music</h2>
                     <FaMusic className='w-full h-28 my-10'/>
                     <div className="card-actions justify-center">
                     </div>
                 </div>
-                </div>
+                </Link>
                 <div className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
                     <h2 className="text-3xl text-black text-center">Manual</h2>

@@ -49,24 +49,24 @@ const Recipes = () => {
             url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            recipeName: 'Falafel',
-            url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            recipeName: 'Tomato Soup',
+            url: 'https://plus.unsplash.com/premium_photo-1675727579542-ad785e1cee41?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            recipeName: 'Falafel',
-            url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            recipeName: 'Ramen',
+            url: 'https://images.unsplash.com/photo-1591325418441-ff678baf78ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            recipeName: 'Falafel',
-            url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            recipeName: 'Ratatouille',
+            url: 'https://plus.unsplash.com/premium_photo-1713635953194-ab8a625b2477?q=80&w=2105&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            recipeName: 'Falafel',
-            url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            recipeName: 'Burrito Bowl',
+            url: 'https://images.unsplash.com/photo-1716392976013-66d90cac4411?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
         {
-            recipeName: 'Falafel',
-            url: 'https://plus.unsplash.com/premium_photo-1663853051660-91bd9b822799?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            recipeName: 'Sushi',
+            url: 'https://plus.unsplash.com/premium_photo-1668143358351-b20146dbcc02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         },
 
     ]
@@ -82,7 +82,7 @@ const Recipes = () => {
               <div className="form-control">
                 <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
               </div>
-              <div className="text-6xl">
+              <div className="text-5xl">
                 <FaGear style={{ color: 'white' }} />
               </div>
             </div>

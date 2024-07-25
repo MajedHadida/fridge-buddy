@@ -74,7 +74,7 @@ const Inventory = () => {
                         </div>
                         <div className="text-4xl flex flex-col items-center gap-5 w-2/5">
                             {/* Food name */}
-                            <h2 className="flex flex-row flex-wrap gap-5 text-center">
+                            <h2 className="flex flex-row flex-wrap gap-5 text-center text-blue-500">
                                 {items[itemIndex].name}
                             </h2>
                             ({items[itemIndex].quantity})
