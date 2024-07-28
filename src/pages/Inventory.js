@@ -60,7 +60,7 @@ const Inventory = () => {
            </div>
 
             {/* Title section */}
-            <h2 className="text-6xl text-white pb-5">
+            <h2 className="text-6xl text-white title-container mt-5">
                 Inventory
             </h2>
 

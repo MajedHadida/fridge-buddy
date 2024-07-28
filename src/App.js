@@ -7,6 +7,8 @@ import Inventory from './pages/Inventory';
 import NoPage from './pages/NoPage';
 import Music from './pages/Music';
 import More from './pages/More';
+import Favourites from './pages/Favourites';
+import Settings from './pages/Settings';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path='/inventory' element={<Inventory/>}/>
           <Route path='/music' element={<Music/>}/>
           <Route path='/more' element={<More/>}/>
+          <Route path='/recipes/favourites' element={<Favourites/>}/>
+          <Route path='/settings' element={<Settings/>}/>
           <Route path='*' element={<NoPage/>}/>
         </Routes>
     </BrowserRouter>

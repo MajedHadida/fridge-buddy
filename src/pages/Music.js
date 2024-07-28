@@ -16,7 +16,7 @@ const Music = () => {
                 </div>
             </div>
 
-            <h2 className='text-white text-6xl'>Music</h2>
+            <h2 className='text-white text-6xl title-container'>Music</h2>
 
             {/* playlist container */}
             <div className="flex flex-col bg-gray-300 rounded-xl p-10 gap-5">

@@ -88,6 +88,10 @@ const More = () => {
         </div>
          
         <textarea className="textarea textarea-bordered h-28 text-2xl" placeholder="Message"></textarea>
+
+    <div className="flex justify-center">
+      <button className="btn btn-primary text-2xl w-1/2">Submit</button>
+    </div>
         </form>
       </div>
     </div>

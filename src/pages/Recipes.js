@@ -80,15 +80,15 @@ const Recipes = () => {
             </div>
             <div className="flex-none gap-2">
               <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto text-2xl" />
               </div>
               <div className="text-5xl">
                 <FaGear style={{ color: 'white' }} />
               </div>
             </div>
           </div>
-          <h2 className="text-6xl text-white pl-20">Recipes</h2>
-          <div className="flex-grow flex justify-center pt-10 overflow-hidden">
+          <h2 className="text-6xl text-white title-container mx-20">Recipes</h2>
+          <div className="flex-grow flex justify-center overflow-hidden">
             <div className="bg-gray-300 w-5/6 h-full overflow-y-auto rounded-xl">
               <div className="flex flex-row flex-wrap justify-center gap-5 py-5">
                 {recipes.map((recipe, recipeIndex) => (
