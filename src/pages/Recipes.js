@@ -111,7 +111,7 @@ const Recipes = () => {
             </div>
           </div>
           <div className="flex flex-row justify-evenly items-center h-40 bg-white">
-            <Link to="/" className="text-white text-6xl">
+            <Link to="/recipes/favourites" className="text-white text-6xl">
                 <FaHeart style={{ color: 'red' }} />
             </Link>
             <Link to="/" className="text-white text-6xl">

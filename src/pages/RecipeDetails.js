@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { IoChevronBackOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 import '../styles/RecipeDetails.css';
+import { CiHeart } from "react-icons/ci";
+import { FaHeart } from 'react-icons/fa6';
+
 
 const RecipeDetails = () => {
     const location = useLocation();
@@ -10,12 +13,29 @@ const RecipeDetails = () => {
     const recipeName = recipe?.recipeName;
     const recipePic = recipe?.url;
 
+    function HeartIcon({isFavourited}){
+        if(isFavourited){
+            return <FaHeart style={{ color: 'red' }} />
+        } else {
+            return <CiHeart style={{color:'white'}}/>
+        }
+    }
+
+    const [isFavourited, setIsFavourited] = useState(false);
+
+    function favouriteRecipe() {
+        setIsFavourited(!isFavourited);
+    }
+
     return(
         <div className="h-auto bg-gray-800 flex flex-col p-10 gap-10">
             {/* navbar section */}
             <div className="navbar bg-gray-800">
                 <div className="flex-1 text-6xl">
-                    <Link to="/"><IoChevronBackOutline style={{ color: 'white' }} /></Link>
+                    <Link to="/recipes"><IoChevronBackOutline style={{ color: 'white' }} /></Link>
+                </div>
+                <div className='text-6xl btn-ghost btn' onClick={favouriteRecipe}>
+                    <HeartIcon isFavourited={isFavourited}/>
                 </div>
             </div>
             {/* Recipe name and ingredients */}

@@ -50,9 +50,9 @@ const Inventory = () => {
                 <Link to="/"><IoChevronBackOutline style={{ color: 'white' }} /></Link>
                 </div>
                 <div className="flex-none gap-10 ">
-                    <div className="text-6xl">
+                    <Link to='/inventory/add-item' className="text-6xl">
                         <FaPlus style={{ color: 'green' }} />
-                    </div>
+                    </Link>
                     <div className="text-6xl">
                         <FaPen style={{ color: 'white' }} />
                     </div>
