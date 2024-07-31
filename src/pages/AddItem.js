@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import { IoChevronBackOutline } from "react-icons/io5";
 import { FaPlus } from "react-icons/fa";
+import { useState } from "react";
+import Error from "../components/Error";
+import Success from "../components/Success";
 
 
 const AddItem = () => {
+    const [showError, setShowError] = useState(false);
+
+
     return(
         <div className="h-screen max-h-screen bg-gray-800 flex flex-col p-10">
             <div className="navbar bg-gray-800">
@@ -29,12 +35,13 @@ const AddItem = () => {
                         <input aria-label="Date" type="date" className="w-1/2" />
                     </div>
                 <div className="flex flex-row gap-5">
-                    <button type="submit" className="btn btn-success text-5xl w-80 h-24"><FaPlus/>Add</button>
-                    <button className="btn btn-secondary text-5xl w-80 h-24">Clear</button>
+                    <button type="button" className="btn btn-success text-5xl w-80 h-24" onClick={() => setShowError(true)}><FaPlus/>Add</button>
+                    <button type="button" className="btn btn-secondary text-5xl w-80 h-24">Clear</button>
                 </div>
                 
                 </form>
            </div>
+           {showError && <Error onClose={() => setShowError(false)}/>}
         </div>
     )
 }

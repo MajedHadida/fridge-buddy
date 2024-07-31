@@ -3,7 +3,6 @@ import recipe from '../assets/recipe.png'
 import more from '../assets/more.png'
 import weather from '../assets/weather.png'
 import { FaGears } from "react-icons/fa6";
-import { IoChevronForward } from "react-icons/io5";
 import { FaMusic } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -59,14 +58,14 @@ const Home = () => {
                     </div>
                 </div>
                 </Link>
-                <div className="card bg-white w-96 shadow-xl border-white border-2">
+                <Link to={"/manual"} className="card bg-white w-96 shadow-xl border-white border-2">
                 <div className="card-body">
                     <h2 className="text-3xl text-black text-center">Manual</h2>
                     <FaBookOpen className='w-full h-28 my-10'/>
                     <div className="card-actions justify-center">
                     </div>
                 </div>
-                </div>
+                </Link>
             </div>
             </div>
         </div>

@@ -10,6 +10,7 @@ import More from './pages/More';
 import Favourites from './pages/Favourites';
 import Settings from './pages/Settings';
 import AddItem from './pages/AddItem';
+import Manual from './pages/Manual';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/recipes/favourites' element={<Favourites/>}/>
           <Route path='/settings' element={<Settings/>}/>
           <Route path='/inventory/add-item' element={<AddItem/>}/>
+          <Route path='/manual' element={<Manual/>}/>
           <Route path='*' element={<NoPage/>}/>
         </Routes>
     </BrowserRouter>
